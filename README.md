@@ -1,2 +1,2 @@
 # weather-app
-Weather API made with React, Node.js, Express, Axios and a weather API.
+Weather App made with React, Node.js, Express, Axios and a weather API.
