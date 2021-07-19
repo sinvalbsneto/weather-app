@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.primary-btn {
+  background-color: #6cc24a;
+  color: #fff;
+  border-color: #6cc24a;
+}
+
+.primary-btn:hover {
+  background-color: transparent;
+  color: #6cc24a;
+}
+
+.weather-card {
+  width: 40%;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+@media (max-width: 1200px) {
+  .weather-card {
+    width: 60%;
+    padding: 5%;
+  }
+}
+
+@media (max-width: 600px) {
+  .weather-card {
+    width: 100%;
+    padding: 20px;
+  }
+}
